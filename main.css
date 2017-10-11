@@ -1,0 +1,525 @@
+	
+	* {
+	  box-sizing: border-box;
+	  
+	}
+	h1{
+		color:DarkRed;
+	}
+	h2{
+		color:#4f2600;
+	}
+	p{
+		color:#4e4c00;
+	}
+	#home{
+		width:100%;
+		height:45px;
+	}
+	.flex{
+		display:flex;
+		flex-wrap:wrap;
+		max-width:100%;
+	}
+	body{
+		margin:0 auto;
+	}
+	header{
+		background-color:#6ea729;
+		width:100%;
+		height:75px;
+		display:flex;
+		flex-wrap:wrap;
+		text-align:center;
+		position:fixed;
+		top:0;
+		z-index:1;
+	}
+	#logonav{
+		height:50px;
+		margin-top:10px;
+	}
+	main{
+		margin:70px auto 0px auto;
+		max-width:1200px;
+		background-color:rgba(255,201,102,0.8);
+	}
+	img{
+		max-width:100%;
+	}
+	.beginning{
+		font-size:15.01pt;
+		font-family:Calibri;
+	}
+	span{
+		font-weight:bold;
+	}
+	#hours1{
+		display:none;
+		width:100%;
+		text-align:center;
+		font-family:calibri;
+		font-size:120%;
+	}
+	#introtitle{
+		text-align:center;
+		font-family:Hobo Std;
+		width:100%;
+	}
+	aside{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	#cards{
+		width:100%;
+		text-align:center;
+	}
+	#acceptpayment{
+		font-family:Arial;
+		width:100%;
+		font-weight:700;
+		text-align:center;
+	}
+	#callnow{
+		font-family:Hobo Std;
+		width:100%;
+		text-align:center;
+	}
+	.textphone{
+		font-family:Hobo Std;
+	}
+	.phone{
+		font-family:Arial;
+		font-size:120%;
+	}
+	
+	#menu{
+		display:flex;
+		flex-wrap:wrap;
+		text-align:center;
+	}
+	.foodblock{
+		display:flex;
+		flex-wrap:wrap;
+		width:100%;
+		font-size:80%;
+	}
+	#food{
+		width:100%;
+	}
+	.left{
+		width:50%;
+		margin-right:0;
+		margin-left:0;
+	}
+	.right{
+		width:50%;
+	}
+	.post_heading{
+		width:100%;
+		font-family:Hobo Std;
+	}
+	
+	.product1{
+			text-align:left;
+			font-family:Arial;
+			margin-left:30px;
+	}
+	.description1{
+			text-align:left;
+			font-family:Arial;
+			margin-left:30px;
+	}
+	/*NAVIGATION */
+	.nav{
+		display:flex;
+		flex-wrap:wrap;
+		font-family: Indie Flower, cursive;
+	}
+	.nav ul{
+		list-style: none;
+		background-color:#6ea729;
+	}
+	.nav li{
+			text-align:center;
+			padding:2px;
+			border-radius:15px;
+		}
+
+		.nav li:hover{
+			background-color:#9ACD32;
+		}
+		.nav a{
+			text-decoration:none;
+			color:white;
+			font-family:calibri;
+			font-size:20px;
+			display:inline-block;
+			/*height:50px;*/
+			line-height:50px;
+		}
+		.nav a:hover{
+			color:White;
+		}
+		#afterhours{
+			font-family:Arial;
+			text-align:center;
+			padding-top:75px;
+		}
+	#contactus{
+		font-family:Arial;
+		text-align:center;
+		padding-top:75px;
+	}
+	.contact2{
+		width:100%;
+		font-size:150%;
+	}
+	.phoneaddress{
+		font-weight: bold;
+		font-size:120%;
+	}
+	.mapas{
+		text-align:center;
+		z-index:0;
+	}
+	#copyright{
+		text-align:center;
+		font-family:Arial;
+		color:White;
+		margin-left:680px;
+	}
+	footer{
+		background-color:#6ea729;
+		width:100%;
+		height:60px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	
+	
+@media screen and (max-width: 600px){
+		#logonav{
+			margin-left:30px;
+		}
+		#introtitle{
+			padding-top:30px;
+		}
+		#intro{
+			display:none;
+		}
+		#continue{
+			display:none;
+		}
+		#hours1{
+			display:inline;
+		}
+		#contact{
+			font-size:150%;
+		}
+		#menu{
+			font-size:90%;
+		}
+		.left{
+			width:100%;
+		}
+		.right{
+			width:100%;
+		}
+		.hours{
+			display:none;
+		}
+		.contactRes{
+			margin:40px;
+		}
+}
+		
+
+@media screen and (min-width: 600px){
+	#logonav{
+		margin-left:190px;
+	}
+	#logohome{
+			max-width:100%;
+			text-align:center;
+			margin-left:150px;
+		}
+	#contact{
+			font-size:150%;
+		}
+	.mapas{
+		width:80%;
+		height:200px;
+		padding-left:80px;
+		margin-bottom:20px;
+	}
+}
+@media screen and (max-width: 850px){
+		#hamu{
+			display: block;
+			background:#6ea729;
+			font-size:1.35em;
+			text-align: center;
+		}
+		#ulo.js{
+			margin-top:0;
+			display: none;
+			width:100%;
+			padding:0;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		li {
+			width:100%;
+			border-right:none;
+		}
+		
+		#intro{
+			padding:0px 20px 0px 30px;
+		}
+		#continue{
+			padding:0px 20px 0px 30px;
+		}
+		#introtitle{
+			padding-top:30px;
+		}
+		#contact{
+			width:100%;
+			text-align:center;
+		}
+		.foodblock{
+			font-size:70%;
+		}
+		.post_heading:nth-of-type(1) {
+			padding-top:60px;
+		}
+		.contactRes{
+			background:BurlyWood;
+			border:2px solid Black;
+			border-radius:10px;
+			margin:40px 90px;
+		}
+		footer{
+			display:none;
+		}
+}
+@media screen and (min-width: 850px){
+	#hamu{
+		display:none;
+	}
+	
+	.nav{
+		display:inline;
+	}
+	.nav li{
+		float:left;
+	}
+	.nav li:nth-of-type(2n){
+		margin-left:15px;
+	}
+	.nav li:nth-of-type(3n){
+		margin-left:15px;
+	}
+	
+	footer{
+			display:none;
+		}
+}
+@media screen and (max-width: 1085px){
+	li.dropdown {
+		display: none;
+	}
+}
+@media screen and (min-width: 1086px){
+	
+	html{
+		background-image:url("../Images/margaritas2.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center; 
+	}
+	.menu2{
+		display:none;
+	}
+	header{
+		background-color:#6ea729;
+		width:100%;
+		height:75px;
+		display:flex;
+		flex-wrap:wrap;
+		text-align:center;
+		position:fixed;
+		top:0;
+	}
+	main{
+		background-color:rgba(255,192,76,0.9);
+	}
+	/*NAV*/
+	#logonav{
+		height:60px;
+		margin-top:7px;
+		margin-left:190px;
+		max-width:100%;
+	}
+	li a, .dropbtn {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+	/*NAVIGATION BAR*/
+		li a:hover, .dropdown:hover .dropbtn:hover {
+			color:Black;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #6ea729;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+			color: White;
+			padding: 3px 6px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+
+		.dropdown-content a:hover {
+			background-color: #f1f1f1;
+			color:black;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		.nav{
+			display:inline;
+			margin-left:100px;
+		}
+		.nav li{
+			float:left;
+		}
+		.nav li:nth-of-type(2n){
+			margin-left:30px;
+		}
+		.nav li:nth-of-type(3n){
+			margin-left:30px;
+		}
+	/*Introduction, Title, logo*/
+	#logohome {
+		width:35%;
+		float:left;
+		padding-left:40px;
+		margin-left:0;
+	}
+	#firstarticle{
+		margin-top:10px;
+		display:flex;
+		flex-wrap:wrap;
+		max-width:100%;
+	}
+	
+	#intro{
+		padding-right:20px;
+		margin-top:25px;
+		width:65%;
+		padding-left:25px;
+	}
+	
+	#continue{
+		margin:10px 0px 0px 100px;
+		padding-right:100px;
+	}
+	#callnow{
+		display:none;
+	}
+	
+	
+	#contact{
+		display:flex;
+		flex-wrap:wrap;
+		font-size:100%;
+		margin-left:200px;
+	}
+	.contact{
+		margin: 10px 5px;
+	}
+	.contact:nth-of-type(2n){
+		margin-left:140px;
+	}
+	.contact:nth-of-type(3n){
+		margin-left:140px;
+	}
+	/*Menu*/
+		#menu{
+			margin-top:50px;
+			display:flex;
+			flex-wrap:wrap;
+		}
+		
+		#menuframe{
+			margin:130px 0px 0px 80px;
+		}
+		#food{
+			margin-left:50px;
+			
+		}
+		.foodblock{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.post_heading{
+			width:100%;
+			padding-top:80px;
+			padding-right:60px;
+			text-align:center;
+		}
+		.left{
+			width:50%;
+			padding-left:30px;
+		}
+		.right{
+			width:50%;
+			padding-right:20px;
+		}
+		#contactus{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.contactRes{
+			width:33.3%;
+		}
+		#contactleft{
+			width:50%;
+		}
+		#map{
+			width:50%;
+		}
+		.mapas{
+			width:70%;
+			height:300px;
+			text-align:center;
+			padding-left:0px;
+		}
+		.mapas:first-of-type{
+			margin-left:60px;
+		}
+	/*footer*/
+	footer{
+		display:inline;
+	}
+	#copyright{
+		margin-left:0px;
+	}
+	
+}
